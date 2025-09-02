@@ -65,6 +65,22 @@ The dataset originates from the Kaggle Titanic Machine Learning Competition and 
 - **Non-survivors** - 549 passengers (61.6%).
 - **Class Imbalance** - Moderate imbalance requiring careful validation strategies.
 
+### Visualizations
+
+<table>
+  <tr>
+    <td align="center"><img src="Visualizations/1.png" width="500"></td>
+    <td align="center"><img src="Visualizations/2.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="Visualizations/3.png" width="500"></td>
+    <td align="center"><img src="Visualizations/4.png" width="500"></td>
+  </tr>
+</table>
+<p align="center">
+  <img src="Visualizations/5.png" alt="1" style="width:100%; max-width:500px; height:auto;"/>
+</p>
+
 ## Technical Architecture
 
 ### Core Technologies
@@ -135,7 +151,7 @@ The project dependencies include essential data science libraries, machine learn
 | **Economic Indicators** | Fare normalization and binning | Reflects purchasing power and class associations |
 | **Demographic Groups** | Age grouping and class combinations | Identifies high-risk and low-risk passenger segments |
 
-**Feature Selection Process** - A multi-criteria approach evaluates feature importance through statistical tests, correlation analysis and model-based importance scores. The selection process balances predictive power with model interpretability and computational efficiency.
+- **Feature Selection Process** - A multi-criteria approach evaluates feature importance through statistical tests, correlation analysis and model-based importance scores. The selection process balances predictive power with model interpretability and computational efficiency.
 
 ### 4. Model Development and Training
 
@@ -337,3 +353,4 @@ The final model demonstrates reliable predictive capability with cross-validatio
 - **Enhanced Ensemble Methods** - Stacking ensemble approaches with meta-learners could combine strengths of different algorithms, while voting classifiers with optimized weights might improve overall prediction accuracy. Bayesian Model Averaging could provide uncertainty quantification for prediction confidence assessment.
 
 - **Automated Feature Selection** - Genetic algorithms could optimize feature subset selection, while sequential feature selection with forward and backward elimination could identify minimal feature sets maintaining prediction accuracy. SHAP-based analysis could provide more detailed feature importance insights.
+
